@@ -356,6 +356,139 @@ main
 }
 
 /* ---------------------------------------------------------------- */
+/* BLOG ENTRY */
+/* ---------------------------------------------------------------- */
+/*
+.image, figure img, img
+{
+    width: 100%;
+    box-shadow: 0 3px 3px #bbbbbb;
+}
+*/
+.full-image, figure.full img, img[src*="full"]
+{
+    width: 100%;
+    box-shadow: 0 3px 3px #bbbbbb;
+}
+
+@supports (width: 100vw)
+{
+    .full-image, figure.full img, img[src*="full"]
+    {
+        width: 100vw;
+        position: relative;
+        left: 50%;
+        right: 50%;
+        margin-left: -50vw;
+        margin-right: -50vw;
+    }
+}
+
+.mid-image, figure.mid img, img[src*="mid"]
+{
+    width: 100%;
+    box-shadow: 0 3px 3px #bbbbbb;
+}
+
+@supports (width: 100vw)
+{
+    .mid-image, figure.mid img, img[src*="mid"]
+    {
+        width: 800px;
+        position: relative;
+        left: 50%;
+        right: 50%;
+        margin-left: -400px;
+        margin-right: -400px;
+    }
+    @media only screen and (max-width: 800px)
+    {
+        .mid-image, figure.mid img, img[src*="mid"]
+        {
+        width: 100%;
+        left: 0;
+        right: 0;
+        margin: 0;
+        }
+    }
+}
+
+.float-image, figure.float img, img[src*="float"]
+{
+    width: 300px;
+    float: left;
+    margin: 0 1em 1em -3em;
+    box-shadow: 0 3px 3px #bbbbbb;
+}
+
+@media only screen and (max-width: 800px)
+{
+    .float-image, figure.float img, img[src*="float"]
+    {
+        float: none;
+        margin: 0;
+        width: 100%;
+    }
+}
+
+.float-image-right, figure.float-right img, img[src*="float-right"]
+{
+    width: 300px;
+    float: right;
+    margin: 0 -3em 1em 1em;
+    box-shadow: 0 3px 3px #bbbbbb;
+}
+
+@media only screen and (max-width: 800px)
+{
+    .float-image-right, figure.float-right img, img[src*="float-right"]
+    {
+        float: none;
+        margin: 0;
+        width: 100%;
+    }
+}
+
+figure
+{
+    margin: 0;
+}
+
+figure figcaption p
+{
+    margin-top: 0.3em;
+    font-size: 0.8em;
+    font-style: italic;
+}
+
+figure.full
+{
+    margin: 0;
+}
+
+figure.mid
+{
+    margin: 0;
+}
+
+figure.float
+{
+    margin: 0;
+    float: left;
+}
+
+figure.float-right
+{
+    margin: 0;
+    float: right;
+}
+
+figure.float-right figcaption
+{
+    margin-left: 1em;
+}
+
+/* ---------------------------------------------------------------- */
 /* PAGINATION */
 /* ---------------------------------------------------------------- */
 
