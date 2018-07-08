@@ -51,9 +51,3 @@ description = "These are some of the projects I've worked on while studying at Q
 </div>
 
 </div>
-
-<div id="video_overlay"></div>
-
-<div id="video">
-    <div id="video_container"></div>
-</div>

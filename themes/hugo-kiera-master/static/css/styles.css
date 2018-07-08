@@ -3,7 +3,8 @@ html, body
     height: 100%;
 }
 
-html { 
+html
+{ 
   
 }
 
@@ -14,66 +15,18 @@ body
     margin: 0px;
 }
 
-.use_edin_bg
+/*-------------------------------------------------------------------*/
+/*-------------------------------------------------------------------*/
+/*-------------------------------------------------------------------*/
+
+.logo
 {
-    background: url(../imgs/bg.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    margin: 0px;
 }
 
-#container > *
-{
-    max-width: 700px;
-    margin: 0 auto;
-}
-
-#header_container_main
-{
-    /*margin: 30px;*/
-    position: absolute;
-    top:0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin:auto;
-    height: 350px;
-    max-width: 1024px;
-    text-align: center;
-}
-
-#header_container
-{
-    margin: 30px auto;
-    margin-bottom: 0;
-    max-width: 1024px;
-    text-align: center;
-}
-
-#header
-{
-    /*width: 100%;
-    max-width: 1024px;*/
-    display: inline-block;
-    margin: 0px auto;
-    padding: 0px 0px;
-    text-align: center;
-    /*display: table;*/
-    /*min-height: 100px;*/
-    
-    /*height: 50px;*/
-    
-    
-}
-
-#title_a
-{
-    /*float: left;*/
-    /*display: table-cell;*/
-    /*vertical-align: bottom;*/
-    text-decoration: none;
-}
+/*-------------------------------------------------------------------*/
+/* TITLE */
+/*-------------------------------------------------------------------*/
 
 #title
 {
@@ -81,11 +34,6 @@ body
     /*float: left;*/
     /*display: table-cell;
     vertical-align: middle;*/
-}
-
-.logo
-{
-    margin: 0px;
 }
 
 #title h1
@@ -108,15 +56,9 @@ body
     margin: 0px 10px;
 }
 
-#title h1.main
-{
-    color: white;
-}
-
-#title h3.main
-{
-    color: lightgrey;
-}
+/*-------------------------------------------------------------------*/
+/* NAV MENU*/
+/*-------------------------------------------------------------------*/
 
 #menu_container
 {
@@ -164,10 +106,6 @@ body
     text-decoration: none;
 }
 
-#menu li a.main {
-    color: white;
-}
-
 /* Change the link color to #111 (black) on hover */
 /*#menu li a:hover {
     background-color: #111;
@@ -176,6 +114,92 @@ body
 
 #menu li a:hover {
     text-decoration: underline;
+}
+
+/*-------------------------------------------------------------------*/
+/* Homepage styles */
+/*-------------------------------------------------------------------*/
+
+.use_edin_bg
+{
+    background: url(../imgs/bg.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#home_header_container
+{
+    /*margin: 30px;*/
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin:auto;
+    height: 350px;
+    max-width: 1024px;
+    text-align: center;
+}
+
+#home_header_container #title h1
+{
+    color: white;
+}
+
+#home_header_container #title h3
+{
+    color: lightgrey;
+}
+
+#home_header_container #menu li a
+{
+    color: white;
+}
+
+/*-------------------------------------------------------------------*/
+/*-------------------------------------------------------------------*/
+/*-------------------------------------------------------------------*/
+
+#container > *
+{
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+#header_container
+{
+    margin: 30px auto;
+    margin-bottom: 0;
+    max-width: 1024px;
+    text-align: center;
+}
+
+/*-------------------------------------------------------------------*/
+/* IS THIS EVEN REQUIRED??? */
+/*-------------------------------------------------------------------*/
+
+#header
+{
+    /*width: 100%;
+    max-width: 1024px;*/
+    display: inline-block;
+    margin: 0px auto;
+    padding: 0px 0px;
+    text-align: center;
+    /*display: table;*/
+    /*min-height: 100px;*/
+    
+    /*height: 50px;*/
+}
+
+#title_a
+{
+    /*float: left;*/
+    /*display: table-cell;*/
+    /*vertical-align: bottom;*/
+    text-decoration: none;
 }
 
 #content_about
@@ -189,17 +213,22 @@ body
     text-align: left;*/
 }
 
-#yle_photo
+/*-------------------------------------------------------------------*/
+/* ABOUT PAGE */
+/*-------------------------------------------------------------------*/
+
+#profile_pic
 {
-    /*display: inline;*/
-    width: 25%;
-    float: left;
-    margin: 0px 10px;
+    width: 258px;
+    height: 258px;
+    padding: 5px;
+    background-color: lightslategrey;
+    border-radius: 50%;
 }
 
-#about_text
+.contact_logo
 {
-    /*display: inline;*/
+    margin: 0 5px;
 }
 
 #email_text
@@ -212,6 +241,10 @@ body
 {
     color:black;
 }
+
+/*-------------------------------------------------------------------*/
+/* PORTFOLIO PAGE */
+/*-------------------------------------------------------------------*/
 
 #content
 {
@@ -244,23 +277,6 @@ body
     text-align: left;
 }
 
-.video
-{
-/*    display: inline-block;
-    width: 40%;
-    margin: 10px;*/
-    position: relative;
-    height: 0;
-    overflow: hidden;
-    padding-bottom: 56.25%;
-    border-left-color: white;
-}
-
-.video:hover
-{
-    border-left-color: lightgrey;
-}
-
 .aspect_ratio
 {
     position: relative;
@@ -276,53 +292,6 @@ body
   height: 100%;
   left: 0; top: 0;
 }
-
-.porfolio_videos
-{
-    /*width: 640px;*/
-/*    width: 100%;
-    height: 360px;
-    height: auto;*/
-    position: absolute;
-    top:0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
-
-.video_title
-{
-    cursor: pointer;
-}
-
-#profile_pic
-{
-    width: 258px;
-    height: 258px;
-    padding: 5px;
-    background-color: lightslategrey;
-    border-radius: 50%;
-}
-
-.contact_logo
-{
-    margin: 0 5px;
-}
-
-/*div#centerDiv {
-        width: 100%;
-        text-align: center;
-        border: 1px solid red;
-}
-ul.centerUL {
-    margin: 2px auto;
-    line-height: 1.4;
-    padding-left: 0;
-}
-.centerUL li {
-    display: inline;
-    text-align: center;
-}*/
 
 /* ----------------------------------------------------------------*/
 /* ----------------------------------------------------------------*/
@@ -432,27 +401,11 @@ ul.centerUL {
         font-size: 16px;
     }
 
-    /*.porfolio_videos
-    {
-        width: 320px;
-        height: 180px;
-    }*/
-
     .video_container
     {
         display: inline-block;
         width: 80%;
         margin: 10px auto;
         /*text-align: center;*/
-    }
-
-    #yle_photo
-    {
-        /*display: inline;*/
-        display: block;
-        /*text-align: center;*/
-        width: 50%;
-        float: none;
-        margin: 10px auto;
     }
 }
