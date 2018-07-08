@@ -3,9 +3,11 @@
     <div id="menu_container">
         <div id="menu">
             <ul>
-                <li><a href="{{ relURL "/" }}about">about</a></li>
-                <li><a href="{{ relURL "/" }}portfolio">portfolio</a></li>
-                <li><a href="{{ relURL "/" }}posts">blog</a></li>
+                {{ range .Site.Menus.main }}
+                <li>
+                    <a href="{{.URL}}">{{ .Name }}</a>
+                </li>
+                {{ end }}
             </ul>
         </div>
     </div>

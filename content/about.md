@@ -2,7 +2,7 @@
 title = "about"
 date = "2018-07-08"
 menu = "main"
-weight = "20"
+weight = "10"
 meta = "false"
 description = "Ylenia is studying Media at Queen Margaret University in Edinburgh. Contact via email or connect on LinkedIn."
 +++
