@@ -1,0 +1,27 @@
+baseURL = "http://www.yleniasaitta.com/"
+title = "Ylenia Saitta"
+copyright = "Copyright &copy; 2018 - Ylenia Saitta"
+
+theme = "hugo-kiera-master"
+
+paginate = 3
+
+summaryLength = 30
+enableEmoji = true
+pygmentsCodeFences = true
+
+#disqusShortname = "" #Disqus shortname
+googleAnalytics = "" #Google Analytics ID
+
+[author]
+    name = ""       #Author name
+    github = ""     #Github username
+    gitlab = ""     #Gitlab username
+    linkedin = "yleniasaitta"   #LinkedIn username
+    facebook = ""   #Facebook username
+    twitter = ""    #Twitter username
+    instagram = "jollysaitz"  #Instagram username
+
+[params]
+    tagline = "Media Student"
+    description = "Ylenia Saitta is currently studying Media at Queen Margaret University in Edinburgh. Check the Portfolio page for some of her work."

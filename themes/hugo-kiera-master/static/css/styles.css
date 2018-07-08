@@ -1,0 +1,458 @@
+html, body
+{
+    height: 100%;
+}
+
+html { 
+  
+}
+
+body
+{
+    font-family: 'Roboto', Verdana, Arial, sans-serif;
+    background: #fcfcfc;
+    margin: 0px;
+}
+
+.use_edin_bg
+{
+    background: url(../imgs/bg.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#container > *
+{
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+#header_container_main
+{
+    /*margin: 30px;*/
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin:auto;
+    height: 350px;
+    max-width: 1024px;
+    text-align: center;
+}
+
+#header_container
+{
+    margin: 30px auto;
+    margin-bottom: 0;
+    max-width: 1024px;
+    text-align: center;
+}
+
+#header
+{
+    /*width: 100%;
+    max-width: 1024px;*/
+    display: inline-block;
+    margin: 0px auto;
+    padding: 0px 0px;
+    text-align: center;
+    /*display: table;*/
+    /*min-height: 100px;*/
+    
+    /*height: 50px;*/
+    
+    
+}
+
+#title_a
+{
+    /*float: left;*/
+    /*display: table-cell;*/
+    /*vertical-align: bottom;*/
+    text-decoration: none;
+}
+
+#title
+{
+    display: inline-block;
+    /*float: left;*/
+    /*display: table-cell;
+    vertical-align: middle;*/
+}
+
+.logo
+{
+    margin: 0px;
+}
+
+#title h1
+{
+    font-weight:900;
+    font-size: 64px;
+    font-size: 100px;
+    color: black;
+    /*color: white;
+    background-color: black;*/
+    /*text-transform: uppercase;*/
+    /*letter-spacing: 5px;*/
+}
+
+#title h3
+{
+    color: grey;
+    font-weight: normal;
+    text-align: right;
+    margin: 0px 10px;
+}
+
+#title h1.main
+{
+    color: white;
+}
+
+#title h3.main
+{
+    color: lightgrey;
+}
+
+#menu_container
+{
+    /*  margin: 0px auto;*/
+    /*float: right;*/
+    /*float: center;*/
+    /*text-align: right;*/
+    text-align: center;
+    margin: 20px;
+    /*display: table-cell;*/
+    /*vertical-align: bottom;*/
+}
+
+#menu
+{
+    /*padding-bottom: 26.8px;*/
+    /*overflow: hidden;*/
+}
+
+#menu ul
+{
+    margin: 0px auto;
+    /*float:right;*/
+    /*display: table-cell;
+    vertical-align: middle;*/
+    list-style-type: none;
+    /*margin: 0;*/
+    padding: 0;
+    /*overflow: hidden;*/
+    /*background-color: #333;*/
+}
+
+#menu li {
+    /*float: left;*/
+    display: inline;
+    cursor: pointer;
+}
+
+#menu li a {
+    /*display: block;*/
+    font-size: 24px;
+    color: black;
+    text-align: center;
+    padding: 5px 16px;
+    text-decoration: none;
+}
+
+#menu li a.main {
+    color: white;
+}
+
+/* Change the link color to #111 (black) on hover */
+/*#menu li a:hover {
+    background-color: #111;
+    color: black;
+}*/
+
+#menu li a:hover {
+    text-decoration: underline;
+}
+
+#content_about
+{
+    /*min-height: 100px;*/
+    /*max-width: 1024px;
+    margin: 0px auto;
+    padding: 0px 0px;
+    width: 100%;
+    padding: 20px;
+    text-align: left;*/
+}
+
+#yle_photo
+{
+    /*display: inline;*/
+    width: 25%;
+    float: left;
+    margin: 0px 10px;
+}
+
+#about_text
+{
+    /*display: inline;*/
+}
+
+#email_text
+{
+    text-align: center;
+    padding: 20px 0;
+}
+
+#email_text a
+{
+    color:black;
+}
+
+#content
+{
+    /*padding: 20px;*/
+    text-align: center;
+}
+
+.full-width
+{
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+}
+
+/*iframe
+{
+    border-color: black;
+    border-width: 0px;
+}*/
+
+.video_container
+{
+    display: inline-block;
+    width: 40%;
+    margin: 10px;
+    height: 100%;
+    text-align: left;
+}
+
+.video
+{
+/*    display: inline-block;
+    width: 40%;
+    margin: 10px;*/
+    position: relative;
+    height: 0;
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    border-left-color: white;
+}
+
+.video:hover
+{
+    border-left-color: lightgrey;
+}
+
+.aspect_ratio
+{
+    position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+
+.aspect_ratio iframe
+{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0; top: 0;
+}
+
+.porfolio_videos
+{
+    /*width: 640px;*/
+/*    width: 100%;
+    height: 360px;
+    height: auto;*/
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.video_title
+{
+    cursor: pointer;
+}
+
+#profile_pic
+{
+    width: 258px;
+    height: 258px;
+    padding: 5px;
+    background-color: lightslategrey;
+    border-radius: 50%;
+}
+
+.contact_logo
+{
+    margin: 0 5px;
+}
+
+/*div#centerDiv {
+        width: 100%;
+        text-align: center;
+        border: 1px solid red;
+}
+ul.centerUL {
+    margin: 2px auto;
+    line-height: 1.4;
+    padding-left: 0;
+}
+.centerUL li {
+    display: inline;
+    text-align: center;
+}*/
+
+/* ----------------------------------------------------------------*/
+/* ----------------------------------------------------------------*/
+
+#container main section#list
+{
+    margin: 0px;
+    padding: 20px;
+}
+
+#container main section#list ul
+{
+    margin: 0px;
+    padding: 0;
+    list-style: none;
+}
+
+#container main section#list ul li
+{
+    padding: 1.0em 0;
+    border-bottom: 1px solid #cecece;
+}
+
+#container main section#list ul li a
+{
+    text-decoration: none;
+    color: #666666;
+}
+
+#container main section#list ul li aside
+{
+    text-decoration: none;
+    color: grey;
+}
+
+#container main section#list ul li .post_title
+{
+    font-size: 24px;
+}
+
+#container main section#list ul li time, #container main section#list ul li span.count
+{
+    float: right;
+}
+
+#container main section#list ul li:last-child
+{
+    border-bottom: none;
+}
+
+/* ----------------------------------------------------------------*/
+/* ----------------------------------------------------------------*/
+
+@media all and (max-width: 640px)
+{
+    #header
+    {
+        display: block;
+    }
+
+    #title_a
+    {
+        display: block;
+        text-align: center;
+        text-decoration: none;
+    }
+    #title h1
+    {
+        font-size: 48px;
+    }
+    
+    #title h3
+    {
+        margin: 0px 2px;
+    }
+
+    #menu_container
+    {
+        display: block;
+        text-align: center;
+    }
+
+    #menu
+    {
+        /*width: 100%;*/
+        text-align: center;
+    }
+
+    #menu ul
+    {
+        float: none;
+        margin: 2px auto;
+        line-height: 1.4;
+        padding-left: 0;
+    }
+
+    #menu li
+    {
+        float: none;
+        display: inline;
+        text-align: center;
+    }
+
+    #menu li a
+    {
+        width: auto;
+        font-size: 16px;
+    }
+
+    /*.porfolio_videos
+    {
+        width: 320px;
+        height: 180px;
+    }*/
+
+    .video_container
+    {
+        display: inline-block;
+        width: 80%;
+        margin: 10px auto;
+        /*text-align: center;*/
+    }
+
+    #yle_photo
+    {
+        /*display: inline;*/
+        display: block;
+        /*text-align: center;*/
+        width: 50%;
+        float: none;
+        margin: 10px auto;
+    }
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-M7RM92T');</script>
+<!-- End Google Tag Manager -->
+
+<title>{{ .Site.Title }}</title>
+{{ partial "meta" . }}
+{{ partial "header_includes" . -}}
+
+<!--
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+-->
+<script src="script.js"></script>
+
+</head>
+
+<body class="use_edin_bg">
+    
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M7RM92T"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    
+        <div id="header_container_main">
+            <div id="header">
+
+                <a href="/" id="title_a">
+                <!--<a id="title_a">-->
+                    <div id="title">
+                        <h1 class="logo main">Ylenia Saitta</h1>
+                        <h3 class="logo main">Media Student</h3>
+                    </div>
+                </a>
+
+                <div id="menu_container">
+                    <div id="menu">
+                        <ul>
+                            <li><a class="main" href="about">about</a></li>
+                            <li><a class="main" href="portfolio">portfolio</a></li>
+                            <li><a class="main" href="posts">blog</a></li>
+                            <!--
+                            {{ range .Site.Menus.main }}
+                            <li>
+                                <a class="main" href="{{.URL}}"> {{ .Name }}</a>
+                            </li>
+                            {{ end }}
+                            -->
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        
+        <div style="display:none;" id="description">
+            <p>Ylenia Saitta is currently studying Media at Queen Margaret University in Edinburgh.</p>
+            <p>Check the Portfolio page for some of her work.</p>
+        </div>
+
+        <div id="content_about">
+<!--
+            <img src="" id="">
+
+            <div id="about_text">
+            </div>
+-->
+        </div>
+
+</body>
+
+</html>
