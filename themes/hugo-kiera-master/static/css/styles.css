@@ -13,6 +13,7 @@ body
     font-family: 'Roboto', Verdana, Arial, sans-serif;
     background: #fcfcfc;
     margin: 0px;
+    overflow-x: hidden;
 }
 
 /*-------------------------------------------------------------------*/
@@ -252,12 +253,6 @@ a
 /* PORTFOLIO PAGE */
 /*-------------------------------------------------------------------*/
 
-#content
-{
-    /*padding: 20px;*/
-    text-align: center;
-}
-
 .full-width
 {
     width: 100vw;
@@ -266,6 +261,12 @@ a
     right: 50%;
     margin-left: -50vw;
     margin-right: -50vw;
+}
+
+#content
+{
+    /*padding: 20px;*/
+    text-align: center;
 }
 
 /*iframe
