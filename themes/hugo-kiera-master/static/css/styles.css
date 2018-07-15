@@ -358,6 +358,17 @@ main
 /* ---------------------------------------------------------------- */
 /* BLOG ENTRY */
 /* ---------------------------------------------------------------- */
+
+article
+{
+    font-family: "Open Sans",Helvetica,sans-serif;
+}
+
+article a
+{
+    color:#1aa0df;
+}
+
 /*
 .image, figure img, img
 {
@@ -434,6 +445,14 @@ main
 .float-image-right, figure.float-right img, img[src*="float-right"]
 {
     width: 300px;
+    float: right;
+    margin: 0 -3em 1em 1em;
+    box-shadow: 0 3px 3px #bbbbbb;
+}
+
+.float-image-right-big, figure.float-right-big img, img[src*="float-right-big"]
+{
+    width: 500px;
     float: right;
     margin: 0 -3em 1em 1em;
     box-shadow: 0 3px 3px #bbbbbb;

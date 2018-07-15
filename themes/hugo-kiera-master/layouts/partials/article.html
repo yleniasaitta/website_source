@@ -1,6 +1,9 @@
 <article>
 
+    <hr/>
+
     <h1>{{ .Title }}</h1>
+    <h3>{{ .Params.title2 }}</h3>
 
     {{ if not .Params.meta }}
         {{ partial "aside" . }}
