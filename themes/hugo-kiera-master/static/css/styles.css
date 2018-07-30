@@ -345,6 +345,11 @@ main
     font-size: 24px;
 }
 
+#container main section#list ul li .post_subtitle
+{
+    font-size: 16px;
+}
+
 #container main section#list ul li time, #container main section#list ul li span.count
 {
     float: right;
@@ -362,6 +367,7 @@ main
 article
 {
     font-family: "Open Sans",Helvetica,sans-serif;
+    /*padding: 20px;*/
 }
 
 article a
@@ -540,7 +546,7 @@ ul.pagination li
 /* ----------------------------------------------------------------*/
 /* ----------------------------------------------------------------*/
 
-@media all and (max-width: 640px)
+@media all and (max-width: 740px)
 {
     #header
     {
@@ -602,5 +608,13 @@ ul.pagination li
         width: 80%;
         margin: 10px auto;
         /*text-align: center;*/
+    }
+
+    /* ---------------------------------------------------------------- */
+    /* BLOG ENTRY */
+    /* ---------------------------------------------------------------- */
+    article
+    {
+        padding: 20px;
     }
 }
