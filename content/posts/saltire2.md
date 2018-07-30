@@ -25,6 +25,8 @@ In the past few days, I've worked on the company database, and I have also worke
 
 Outside of work, I have been busy with a few different things.
 
+![Pizza Fest](../../imgs2/pizza_fest.jpg#mid)
+
 Two weeks ago I ventured to Missisagua, where the other two Saltire Scholars (Layla & Silviya) are staying, and we finally watched the Incredibles 2, which was hilarious. I heard a lot of different opinions about it, but I genuinely loved it.
 Last Friday, my flatmate Kate and I joined Layla's neighbours and her at Snakes & Lattes, where we had dinner and played board games. There must be a similar place in Edinburgh! I had so much fun, mainly because we were such a large group of people. I got to showcase my extensive knowledge of Harry Potter with Trivial Pursuit, so it was a good evening.
 On the following day, Kate, Geunyoung and I went to Pizza Fest. Pizza is everything! Food and the music were great.
