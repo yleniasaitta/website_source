@@ -57,7 +57,6 @@ See you next week or maybe in a couple of weeks, who knows? For another update. 
 
 
 See more of time in Toronto on my Instagram highlights at [@jollysaitz](http://www.instagram.com/jollysaitz/).
-Don't have to check it out, but it felt cool to have something to show. Not trying to be famous here. I like the backstage.
 
 
 See ya!
