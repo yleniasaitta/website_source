@@ -51,12 +51,10 @@ Be part of the Saltire Programme and receive this significant opportunity from E
 I come from a tiny town in Italy, and I'm the first person in my family to go to University. I started to learn English about seven years ago, and I became confident and fluent just five years ago. I had people telling me my English was so terrible I could have never even hoped to study in the UK, especially for a Media degree. It hurt to have very little support, but as you can tell, I didn't let it go. I sought help, and I put in the work. I'm most definitely not a straight-A student like I'd like to be. I didn't always believe I could reach my goals, but I did it anyway.
 I know it's a very soppy story, but I never said it would have been a cringe-free blog post. Being a Saltire Scholar means I can better myself, learn to trust in my skills and join an enormous group of like-minded people, who cannot wait around and hope that opportunities will come their way. We all go and seek it. I have met the most diverse characters while at the Leadership Day in Glasgow, a little over a month ago. It's really for everyone who is serious about their future and is ready to take up this chance. Even if you don't obtain an internship, the whole journey is such a learning experience, from which you'll come out different.
 
-I would have never thought my experience would have been this amazing already, but it has exceeded my expectations. I cannot wait to see what's to come and strangely I'm ready for all the challenges that will come my way.
-I know this will be one of the best summers I have had, and I hope I won't be defeated and that my morale will keep being this high.
+I would have never thought my experience would have been this amazing already, but it has exceeded my expectations. I cannot wait to see what's to come and strangely I'm ready for all the challenges that will come my way. I know this will be one of the best summers I have had, and I hope I won't be defeated and that my morale will keep being this high.
 See you next week or maybe in a couple of weeks, who knows? For another update. Less cheesy (hopefully).
 
 
 See more of time in Toronto on my Instagram highlights at [@jollysaitz](http://www.instagram.com/jollysaitz/).
-
 
 See ya!

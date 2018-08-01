@@ -13,6 +13,11 @@ pygmentsCodeFences = true
 #disqusShortname = "" #Disqus shortname
 googleAnalytics = "" #Google Analytics ID
 
+[blackfriday]
+    angledQuotes = true
+    extensions = ["hardLineBreak","footnotes"]
+    #extensionsmask = ["footnotes"]
+
 [author]
     name = ""       #Author name
     github = ""     #Github username
